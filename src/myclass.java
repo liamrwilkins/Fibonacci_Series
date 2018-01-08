@@ -20,12 +20,11 @@ public class myclass {
 		}
 		
 		// Conditional
-		if(i>5){
+		if(i>5)
 			System.out.println("\nString is big (" + i + ")");
-		} 
-		else {
+		else if(i == 0)
+			System.out.println("\nString is null");
+		else 
 			System.out.println("\nString is small (" + i + ")");
-		}
-		
 	}
 }
